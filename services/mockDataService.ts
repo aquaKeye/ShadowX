@@ -9,7 +9,7 @@ const GROQ_BASE_URL = "https://api.groq.com/openai/v1/chat/completions";
 export const fetchMockProfile = async (username: string): Promise<{ tweets: Tweet[], isVerified: boolean }> => {
   try {
     // COMMENTED OUT - Old Gemini Implementation
-    // const apiKey = "AIzaSyCMiCGPpbCAnZ6K3wpFNZpUHCoImFxWh4U";
+    // const apiKey = "";
     // const ai = new GoogleGenAI({ apiKey });
 
     const prompt = `Act as a Twitter data simulator. 
