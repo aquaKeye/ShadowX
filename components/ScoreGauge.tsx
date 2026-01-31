@@ -15,15 +15,15 @@ export const ScoreGauge: React.FC<ScoreGaugeProps> = ({ score }) => {
   // Calculate offset based on score (0-100)
   const offset = circumference - (score / 100) * circumference;
 
-  let color = '#00ba7c'; // X Green
-  let labelColor = 'text-[#00ba7c]';
+  let color = '#2d8f7a'; // крабовый «безопасно» — морская зелень
+  let labelColor = 'text-[#2d8f7a]';
   
   if (score < 50) {
-    color = '#f91880'; // X Red/Pink
-    labelColor = 'text-[#f91880]';
+    color = '#ff6b5b'; // крабовый коралл — риск
+    labelColor = 'text-[#ff6b5b]';
   } else if (score < 80) {
-    color = '#ffd400'; // X Yellow
-    labelColor = 'text-[#ffd400]';
+    color = '#e6a23c'; // янтарь — средний риск
+    labelColor = 'text-[#e6a23c]';
   }
 
   return (
@@ -34,7 +34,7 @@ export const ScoreGauge: React.FC<ScoreGaugeProps> = ({ score }) => {
           cx={center}
           cy={center}
           r={radius}
-          stroke="#2f3336"
+          stroke="#3d2c28"
           strokeWidth={strokeWidth}
           fill="transparent"
         />

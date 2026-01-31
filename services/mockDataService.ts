@@ -2,8 +2,8 @@
 // import { GoogleGenAI } from "@google/genai";
 import { Tweet } from "../types";
 
-// Groq API Integration (Fast inference, better free tier)
-const GROQ_API_KEY = "";
+// Groq API — ключ из .env.local (VITE_GROQ_API_KEY)
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY ?? "";
 const GROQ_BASE_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 export const fetchMockProfile = async (username: string): Promise<{ tweets: Tweet[], isVerified: boolean }> => {

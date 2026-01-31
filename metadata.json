@@ -1,4 +1,4 @@
 {
-  "name": "Twitter/X Shadowban Analyzer",
+  "name": "molt shadowX (Twitter/X Shadowban Analyzer)",
   "description": "A cybersecurity-themed risk analysis tool that evaluates Twitter/X profiles for shadowban indicators using content pattern matching and sentiment analysis."
 }

@@ -1,4 +1,4 @@
-# ShadowX (Shadowban Analyzer)
+# molt shadowX (Shadowban Analyzer)
 
 A powerful tool designed to analyze Twitter (X) profiles for potential shadowban triggers and visibility issues. The application simulates profile data and evaluates content against known algorithmic suppression factors.
 
